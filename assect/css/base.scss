@@ -1,0 +1,44 @@
+$primary-color-100: #d5f1f1;
+$primary-color: #23bcec;
+$primary-color-rgb: 35, 188, 236;
+$primary-color-900: #204f5e;
+$primary-color-900-rgb: 32, 79, 94;
+$secondary-color: #ee753d;
+$secondary-color-rgb: 236, 185, 52;
+$black-color: #000000;
+$black-color-rgb: 0, 0, 0;
+$white-color: #ffffff;
+$white-color-rgb: 255, 255, 255;
+$bg-color: #faffff;
+$bg-color-rgb: 250, 255, 255;
+$description-color: #5a8695;
+$font-family: 'Assistant';
+$font-size: 16px;
+$font2:'Caveat' ;
+$font-weight: 300;
+$line-height: 1.5;
+$gutter-width: 15px;
+
+:root {
+
+  --primary-100: #{$primary-color-100};
+  --primary: #{$primary-color};
+  --primary-rgb: #{$primary-color-rgb};
+  --primary-900: #{$primary-color-900};
+  --primary-900-rgb: #{$primary-color-900-rgb};
+  --secondary: #{$secondary-color};
+  --secondary-rgb: #{$secondary-color-rgb};
+  --black-color: #{$black-color};
+  --black-rgb: #{$black-color-rgb};
+  --white: #{$white-color};
+  --white-rgb: #{$white-color-rgb};
+  --bg: #{$bg-color};
+  --bg-rgb: #{$bg-color-rgb};
+  --text-color: #{$description-color};
+  --font: #{$font-family};
+  --font2: #{$font2};
+  --fs: #{$font-size};
+  --fw: #{$font-weight};
+  --lh: #{$line-height};
+  --gw: #{$gutter-width};
+}
